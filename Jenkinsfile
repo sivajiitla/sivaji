@@ -4,7 +4,7 @@ pipeline {
         stage ('Build Servlet Project') {
             steps {
                 /*For windows machine */
-               sh  'mvn clean package'
+               sh  'compile'
 
                 /*For Mac & Linux machine */
                // sh  'compile'
