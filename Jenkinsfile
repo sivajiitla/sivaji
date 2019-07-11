@@ -5,7 +5,7 @@ pipeline {
                                               sh ('mvn test package')
                                               }
                       stage('archive artifact'){
-                                              archiveartifact artifact: * */*war
+                                              archiveartifacts artifact: **/*war
                                                }
                      }
            }
