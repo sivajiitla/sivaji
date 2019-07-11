@@ -1,11 +1,11 @@
 pipeline {
             agents any
             stages {
-                      stage ('maven build') {
+                      step ('maven build') {
                                               sh ('mvn test package')
                                               }
-                      stage('archive artifact'){
-                                              archiveArtifacts artifacts : **/*war
+                      post('archive artifact'){
+                                              archiveArtifacts artifacts : '**/*.war'
                                                }
                      }
            }
