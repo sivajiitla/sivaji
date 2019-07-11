@@ -8,5 +8,6 @@ pipeline {
                                    post{
                                               archiveArtifacts artifacts : '**/*.war'
                                                }
+                                               }
                      }
            }
