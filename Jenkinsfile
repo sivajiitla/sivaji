@@ -1,5 +1,5 @@
 pipeline {
-            agents any
+            agent any
             stages {
                       step ('maven build') {
                                               sh ('mvn test package')
