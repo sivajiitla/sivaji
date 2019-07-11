@@ -7,7 +7,7 @@ pipeline {
                sh  'mvn clean package'
 
                 /*For Mac & Linux machine */
-               // sh  'mvn clean package'
+               // sh  'compile'
             }
 
             post{
