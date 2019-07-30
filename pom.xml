@@ -5,8 +5,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>GroupID</groupId>
-  <artifactId>project</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <artifactId>sivaji</artifactId>
+  <version>itla</version>
   <packaging>war</packaging>
 
   <name>project</name>
